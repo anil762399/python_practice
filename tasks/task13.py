@@ -23,3 +23,6 @@ def check(num):
     return num > 0 and num != 4
 check = lambda num: num > 0 and num != 4
 print(check(44))
+
+
+

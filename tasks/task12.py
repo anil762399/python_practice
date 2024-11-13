@@ -12,6 +12,13 @@ def reverse(n):
 reverse(20)
 
 # task2
+
+def _name(entered_name):
+    for i in range(6):
+        name=input(f"enter name {i}:")
+        print(name)
+_name("name")
+
 def _input(count):
     if count > 5:
         return
@@ -19,5 +26,6 @@ def _input(count):
     print(f"You entered: {user_name}")
     _input(count + 1)
 count = 1  
-_input(count)
+_input(count) 
+
 
